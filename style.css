@@ -1,0 +1,12 @@
+.container {
+    inline-size: 500px;
+    block-size: 500px;
+    background-color: aqua;
+}
+
+.wrapper {
+    display: flex;
+    inline-size: 100%;
+    block-size: 250;
+    background-color: ;
+}
