@@ -1,2 +1,0 @@
-            <button id="S" onclick="Segitiga()">Segitiga</button>
-          <button id="J" onclick="JajarGenjang()">Jajar Genjang</button>

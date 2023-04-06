@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(196, 196, 196);
+  margin: 1px;
+  padding: 1px;
+}
+.container-navbar {
+  inline-size: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(34, 29, 29);
+  block-size: 100px;
+}
+
+.ul-navbar {
+  display: flex;
+  block-size: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  list-style-type: none;
+  padding: 20px;
+  margin: 100px;
+  font-size: 30px;
+  border: 2px solid rgb(42, 211, 223);
+    text-align: center;
+    text-shadow: 0 0 5px   #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #0ff, 0 0 25px #0ff, 0 0 30px #0ff, 0 0 35px #0ff;
+}
+
+.a-navbar {
+    color: rgb(0, 48, 59);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.img-content {
+    inline-size: 50%;
+    block-size: 50%;
+}
+.container-content {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    block-size: calc(100vh - 100px);
+  }
+  .footer {
+    display: flex;
+    inline-size:auto;
+    block-size: 20px;
+    background-color: #f00;
+    justify-content: center;
+    align-items: center;
+    animation: color-change 5s ease-in-out infinite;
+  }
+  
+  @keyframes color-change {
+    0% {
+      background-color: rgb(129, 131, 235);
+    }
+    30% {
+      background-color: rgb(73, 202, 253);
+    }
+    65% {
+      background-color: rgb(98, 161, 255);
+    }
+    100% {
+      background-color: rgb(129, 131, 235);
+    }
+  }
+
+  .container-navbar,.footer,.foto,.tombol{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+  }
+  .tombol {
+    background-color: rgb(0, 116, 211);
+  }
+
+.box{
+  inline-size: 50px;
+  block-size: 50px;
+  background-color: rgba(100, 162, 255, 0);
+  animation: spin 5s linear infinite;
+  border: 2px solid black;
+}
+
+.box:nth-child(1) {
+  border: 2px solid rgb(235, 58, 58);
+}
+
+.box:nth-child(2) {
+  border: 2px solid rgb(45, 190, 31);
+}
+
+.box:nth-child(3) {
+  border: 2px solid rgb(75, 78, 255);
+}
+
+.box:nth-child(4) {
+  background-color: orange;
+}
+
+.box:nth-child(5) {
+  background-color: purple;
+}
+
+@keyframes spin {
+  from {
+    margin-inline-start: 0%; /* Mulai dari posisi kanan layar */
+  }
+  to {
+    margin-inline-start: 100%; /* Selesai di posisi kiri layar */
+  }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.mid {
+  display: flex;
+    inline-size:auto;
+    block-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
